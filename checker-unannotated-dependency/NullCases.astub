@@ -1,0 +1,15 @@
+package com.nickwongdev;
+
+import org.checkerframework.checker.nullness.qual.*;
+
+class NullCases {
+    NullCases();
+    @Nullable String getAnnotated();
+    @Nullable String getDefaulted();
+    @NonNull String getString();
+    @Nullable String getRandomString();
+    void setNullableString(@Nullable String input);
+    void setNonNullString(@NonNull final String input);
+    @Nullable String getNullableString();
+    @Nullable String getNonNullString();
+}
